@@ -1,6 +1,8 @@
 ## ganDL
 The fifth project for the [Deep Learning Foundations Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101), cofused on Generative Adversarial Networks!
 
+![](http://www.kdnuggets.com/wp-content/uploads/generative-adversarial-network.png)
+
 ![](https://image.slidesharecdn.com/generativeadversarialnetworks-161121164827/95/generative-adversarial-networks-11-638.jpg)
 
 All of the fun stuff is available in `face_generation.ipynb`.
@@ -51,7 +53,7 @@ In this project, we implemented the steps necessary to build a simple imagegener
 * **Flattening Layers**
 * **Fully Connected Layers**
 
-The final model could produce relatively indistinguishable versions of the MINST or CelebA image dataset, using randomly generated noise in the Generator fool the Discriminator. Here's an example of how that looks during generation:
+The final model could produce relatively indistinguishable versions of the MINST or CelebA image dataset, using randomly generated noise in the Generator fool the Discriminator. Here's an example of how that looks during generation (sped up):
 
 ![](https://d3ansictanv2wj.cloudfront.net/gan-images-final-d7bdb862726f6fd928a7c859a69c3248.gif)
 
